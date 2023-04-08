@@ -1,0 +1,75 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    margin: 25px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+h1 {text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+   }
+
+   div.polaroid {
+        
+    background-color: rgb(17, 17, 17);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .column {
+  float: left;
+  width: 32%;
+  padding: 4px;
+  }
+h2 {text-align: center;
+    font-family: Tahoma, sans-serif;
+   }
+h3 {text-align: center;
+    font-family: Tahoma, sans-serif;
+   }
+h4 {text-align: center;
+    font-family: Tahoma, sans-serif;
+   }
+h5 {text-align: center;
+    font-family: Tahoma, sans-serif;
+   }
+
+   .button {
+    background-color: #004557; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+div {
+    font-family: Gill Sans, sans-serif;
+   }
